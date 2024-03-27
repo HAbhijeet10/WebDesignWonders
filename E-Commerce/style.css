@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-image: url("1.jpg");
+    background-size: cover;
+    position: absolute;
+}
+header{
+    position: fixed;
+    z-index: 1;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 30px;
+    text-shadow: 2px 1px 5px black;
+}
+nav .icon{
+    padding: 3rem;
+    font-size: 35px;
+    width: 800;
+    color: #fff;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav ol{
+    padding: 3.5rem;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+nav ol li{
+    margin: 0 2px;
+}
+nav ol li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    
+}
+nav ol li a:hover{
+    color: aquamarine;
+}
+#logo{
+    height: 150;
+    width: 150px;
+    cursor: pointer;
+    
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.order{
+    padding: 3rem;
+}
+.order:hover{
+    filter: drop-shadow(3px 1px 10px white);
+    text-shadow: 3px 1px 10px white;
+}
+#order{
+    height: 40;
+    width: 70px;
+    filter: drop-shadow(2px 1px 5px black);
+
+}
+#cart{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+
+#heading{
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    left:370px;
+
+}
+h1{
+    font-size: 85px;
+    color: #fff;
+    text-shadow: 4px 1px 10px black;
+}
+#btn{
+    font-size: 15px;
+    color:blueviolet;
+    background-color: blanchedalmond;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn:hover{
+    color:rgb(118, 45, 186);
+    background-color: rgba(255, 235, 205, 0.694);
+
+}
+
+.imgs{
+    top: 510px;
+    z-index: -1;
+    position: relative;
+}
+.imgs1{
+    height: 260px;
+    width: 1216.5px;
+    border-radius: 20px;
+    
+}
+#h11{
+    font-size: 6rem;
+    top: 200px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.products{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 25px;
+}
+.Product_1{
+    height: 280px;
+    width: 180px;
+    border-radius: 20px;
+    filter: drop-shadow(5px 0px 10px black);
+}
+.Product_1:hover{
+    filter: drop-shadow(5px 0px 10px white);
+}
+.Buy1, .Buy2, .Buy3, .Buy4{
+    position: relative;
+    padding: 5px 10px 5px 10px;
+    color:blueviolet;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 50px;
+    z-index: 1;
+    box-shadow: 4px 0px 10px black;
+    left: 60px;
+    bottom: 20px;
+    font-weight: bold;
+}
+.Buy1:hover{
+    color:rgb(94, 31, 154);
+    background-color: rgb(210, 184, 145);
+}
+
+.Buy2:hover{
+    color:rgb(94, 31, 154);
+    background-color: rgb(210, 184, 145);
+}
+
+.Buy3:hover{
+    color:rgb(94, 31, 154);
+    background-color: rgb(210, 184, 145);
+}
+
+.Buy4:hover{
+    color:rgb(94, 31, 154);
+    background-color: rgb(210, 184, 145);
+}
+.Cart{
+    position: relative;
+    padding: 5px 10px 5px 10px;
+    color:blueviolet;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 50px;
+    z-index: 1;
+    box-shadow: 4px 0px 10px black;
+    right: 65px;
+    bottom: 250px;
+    font-weight: bold;
+}
+.Cart:hover{
+    color:rgb(94, 31, 154);
+    background-color: rgb(210, 184, 145);
+}
+.pg{
+    position: absolute;
+    text-shadow: 5px 1px 5px black;
+    z-index: 1;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.footer ol{
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+#foot{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.564);
+    padding: 10px 5px;
+    font-weight: bold;
+    bottom: -40rem;
+}
